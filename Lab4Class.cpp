@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	GasMeter LichylnukSashyn("DotaLichilnyk",3,5,3,2,3), LichylnukNastyn, LichylnukVovyn;    //инициализация в main шести объектов("a" використовуе конструктор з параметрами) // використовуе стандартний конструктор("b","c")
+	GasMeter LichylnukSashyn("DotaLichilnyk",3,5,3,2,3), LichylnukNastyn, LichylnukVovyn;    //инициализация в main шести объектов("sasynlichilnyk" використовуе конструктор з параметрами) // використовуе стандартний конструктор("lychilnik nastin","lychilnik vovin")
 	cout << "Name for Sasha = " << LichylnukSashyn.GetName() << endl;
 	cout << "Qmax for Sasha = " << LichylnukSashyn.GetQmax() << endl;
 	cout << "Distance for Sasha = " << LichylnukSashyn.GetDistance()  << endl;
